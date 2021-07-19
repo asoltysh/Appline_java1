@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 Hello
 world
 Hi
 hi1
+=======
+Hello;
+world;
+>>>>>>> master

@@ -19,7 +19,6 @@ public class Сycles {
             String[] array = new String[a];
 
             for (int i = 0; i < array.length; i++) {
-                //if ((x == Integer.parseInt(array[i])) || (y.equals(array[i])) || (z == array[i].charAt(0))){
                 if ((x.equals(array[i])) || (y.equals(array[i])) || (z.equals(array[i]))){
                     System.out.println("Данное значение имеется в константах");
                 }

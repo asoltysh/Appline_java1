@@ -30,18 +30,5 @@ public class matrix {
             }
             System.out.println();
         }
-
-        System.out.println("***");
-        int ab = 3;
-        switch (ab){
-            case 1:
-                System.out.println("1");
-                break;
-            default:
-                System.out.println("default");
-            case 2:
-                System.out.println("2");
-        }
-
     }
 }

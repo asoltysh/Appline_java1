@@ -11,19 +11,19 @@ public class Сalculator {
         int b = scanner.nextInt();
 
         System.out.println("Введите операцию: + - * /");
-        String c = scanner.next();
+        char c = scanner.next().charAt(0);
 
         switch (c) {
-            case "+":
+            case '+':
                 System.out.println(a + b);
                 break;
-            case "-":
+            case '-':
                 System.out.println(a - b);
                 break;
-            case "*":
+            case '*':
                 System.out.println(a * b);
                 break;
-            case "/":
+            case '/':
                 if (b == 0){
                     System.out.println("нельзя делить на 0");
                 } else {

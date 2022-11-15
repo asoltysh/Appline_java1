@@ -24,7 +24,11 @@ public class Сalculator {
                 System.out.println(a * b);
                 break;
             case "/":
-                System.out.println(a / b);
+                if (b == 0){
+                    System.out.println("нельзя делить на 0");
+                } else {
+                    System.out.println(a / b);
+                }
                 break;
         }
     }

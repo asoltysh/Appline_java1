@@ -25,7 +25,7 @@ public class Сalculator {
                 break;
             case '/':
                 if (b == 0){
-                    System.out.println("нельзя делить на 0");
+                    System.out.println("Нельзя делить на 0");
                 } else {
                     System.out.println(a / b);
                 }

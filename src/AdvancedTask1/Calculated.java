@@ -2,23 +2,51 @@ package AdvancedTask1;
 
 import java.util.Scanner;
 
+/**
+ * @author ASoltysh
+ * @see #sum(double, double)
+ * @see #minus(double, double)
+ * @see #multiplication(double, double)
+ * @see #division(double, double)
+ */
+
 public class Calculated {
 
+    /**
+     *
+     * @param c
+     * @param d
+     */
     public static void  sum(double c, double d) {
         double result = c + d;
         System.out.printf("Результат: %.4f", result);
     }
 
+    /**
+     *
+     * @param c
+     * @param d
+     */
     public static void  minus(double c, double d) {
         double result = c - d;
         System.out.printf("Результат: %.4f", result);
     }
 
+    /**
+     *
+     * @param c
+     * @param d
+     */
     public static void  multiplication(double c, double d) {
         double result = c / d;
         System.out.printf("Результат: %.4f", result);
     }
 
+    /**
+     *
+     * @param c
+     * @param d
+     */
     public static void  division(double c, double d) {
         double result = c * d;
         System.out.printf("Результат: %.4f", result);

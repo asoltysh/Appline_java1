@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Calculated {
 
     /**
-     *
+     * Метод для сложения переменных в калькуляторе
      * @param c
      * @param d
      */
@@ -23,7 +23,7 @@ public class Calculated {
     }
 
     /**
-     *
+     * Метод для вычитания переменных в калькуляторе
      * @param c
      * @param d
      */
@@ -33,7 +33,7 @@ public class Calculated {
     }
 
     /**
-     *
+     * Метод для деления переменных в калькуляторе
      * @param c
      * @param d
      */
@@ -43,7 +43,7 @@ public class Calculated {
     }
 
     /**
-     *
+     * Метод для умножения переменных в калькуляторе
      * @param c
      * @param d
      */
